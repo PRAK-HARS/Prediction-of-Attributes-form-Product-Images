@@ -111,11 +111,18 @@ Applied stacking and weighted voting to enhance predictions:
 ---
 
 ## 📊 **Performance Metrics**
-| Model            | Dataset         | Accuracy  | Loss   |
-|-------------------|-----------------|-----------|--------|
-| ResNet50         | Kurtis          | 85.4%     | 0.12   |
-| Vision Transformer | Women's T-Shirts | 87.6%     | 0.09   |
-| Ensemble          | Sarees          | 89.8%     | 0.08   |
+**Resnet50**:
+| Dataset         | Accuracy  | Loss   |
+|-----------------|-----------|--------|
+| Kurtis          | 70.4%     | 0.12   |
+| Women's T-Shirts | 81.6%     | 0.09   |
+| Men's T-shirts          | 97.6%     | 0.12   |
+| Women's Tops & Tunics          | 82.3%     | 0.08   |
+| Sarees          | 62.5%     | 1.08   |
+
+**VGG16 Multi-class Multi-label classification**:
+- **Accuracy**: 76%
+- **F1 Score**: 0.73
 
 ---
 
@@ -130,11 +137,8 @@ Applied stacking and weighted voting to enhance predictions:
 ---
 
 ## 📩 **Contact**
-For queries, feel free to reach out:
 - Email: `yourname@example.com`
-- GitHub: [YourUsername](https://github.com/yourusername)
-- LinkedIn: [YourLinkedIn](https://linkedin.com/in/yourusername)
+- GitHub: [YourUsername](https://github.com/PRAK-HARS)
+- LinkedIn: [YourLinkedIn](https://www.linkedin.com/in/prakhar-singh-a6a60321b/)
 
 ---
-
-Would you like to include more examples or specific visuals? Let me know!
