@@ -84,20 +84,22 @@ Applied stacking and weighted voting to enhance predictions:
 ---
 
 ## 🎨 **Visual Enhancements**
-### **Sample Outputs**
-
-Here’s a glimpse of the attribute predictions:  
-![Attribute Example](https://dummyimage.com/600x300/eeeeee/000000&text=Attribute+Classification+Preview) *(Placeholder for your real visuals)*
 
 ### **Example Images**
-#### Kurtis Classification
-![Kurtis](https://dummyimage.com/150x200/ffcccb/000000&text=Kurtis)
+#### Kurtis
+![Kurtis](./Kurti.jpg)
 
 #### Women's T-Shirts
-![T-Shirts](https://dummyimage.com/150x200/ccffcb/000000&text=T-Shirts)
+![T-Shirts](./Women_Tshirt.jpg)
 
-#### Sarees Classification
-![Sarees](https://dummyimage.com/150x200/ccccff/000000&text=Sarees)
+#### Sarees
+![Sarees](./Saree.jpg)
+
+#### Men's T-Shirts
+![T-Shirts](./Men_Tshirt.jpg)
+
+#### Women's Tops & Tunics
+![T-Shirts](./Women_Top.jpg)
 
 ---
 
