@@ -34,11 +34,11 @@ This project is part of the Visual Taxonomy Competition by Meesho, focusing on m
 ---
 
 ## 🚀 **Modeling Approach**
-1. Initial Experiments with ResNet50
+**1. Initial Experiments with ResNet50**
 
-Feature Extraction and Prediction:
+-**Feature Extraction and Prediction:**
 
-Utilized ResNet50 pre-trained on ImageNet for feature extraction.
+--Utilized ResNet50 pre-trained on ImageNet for feature extraction.
 
 Built separate models for each attribute, resulting in independent predictions.
 
