@@ -34,7 +34,7 @@ This project is part of the Visual Taxonomy Competition by Meesho, focusing on m
 ---
 
 ## 🚀 **Modeling Approach**
-**1. Initial Experiments with ResNet50**
+### **1. Initial Experiments with ResNet50**
 
 -**Feature Extraction and Prediction:**
 
