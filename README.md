@@ -34,51 +34,52 @@ This project is part of the Visual Taxonomy Competition by Meesho, focusing on m
 ---
 
 ## 🚀 **Modeling Approach**
-### **1. Initial Experiments with ResNet50**
+**1. Initial Experiments with ResNet50**
 
--**Feature Extraction and Prediction:**
+- **Feature Extraction and Prediction:**
 
---Utilized ResNet50 pre-trained on ImageNet for feature extraction.
+  - Utilized ResNet50 pre-trained on ImageNet for feature extraction.
+  - Built separate models for each attribute, resulting in independent predictions.
 
-Built separate models for each attribute, resulting in independent predictions.
+- **Observation:** While ResNet50 provided a solid baseline, the results varied significantly across attributes and categories.
 
-Observation: While ResNet50 provided a solid baseline, the results varied significantly across attributes and categories.
 
-2. Model Experiments with Random Forest and CatBoost
+**2. Model Experiments with Random Forest and CatBoost**
 
 Extracted features using ResNet50 and trained Random Forest and CatBoost classifiers for prediction.
 
-Notable Results:
+**Notable Results:**
 
-Sarees attr_4: Achieved better performance using Random Forest.
+- **Sarees attr_4**: Achieved better performance using Random Forest.
 
-Other Attributes: CatBoost outperformed Random Forest in several cases.
+- **Other Attributes**: CatBoost outperformed Random Forest in several cases.
 
-3. Incorporation of ViTs and VGG16
+
+**3. Incorporation of ViTs and VGG16**
 
 Experimented with Vision Transformers (ViTs) and VGG16 for feature extraction:
 
-ViTs: Showed moderate improvement but were computationally expensive.
+- **ViTs**: Showed moderate improvement but were computationally expensive.
 
-VGG16: Delivered the best results overall for feature extraction, particularly in color-related attributes.
+- **VGG16**: Delivered the best results overall for feature extraction, particularly in color-related attributes.
 
-4. Color Quantization for Color Attributes
 
-Technique: Used K-Means clustering to extract dominant colors from images.
+**4. Color Quantization for Color Attributes**
 
-Prediction Models: Applied K-Nearest Neighbors (KNN) and Logistic Regression to classify attributes related to color.
+- **Technique**: Used K-Means clustering to extract dominant colors from images with 3 clusters.
 
-Outcome: Achieved competitive results for color-related attributes using this approach.
+- **Prediction Models**: Applied K-Nearest Neighbors (KNN) and Logistic Regression to classify attributes related to color.
 
-5. Ensemble Techniques
+- **Outcome**: Achieved competitive results for color-related attributes using this approach.
+
+
+**5. Ensemble Techniques**
 
 Applied stacking and weighted voting to enhance predictions:
 
-Stacking: Combined predictions from multiple models using a meta-classifier.
+- **Stacking**: Combined predictions from multiple models using a meta-classifier.
 
-Weighted Voting: Aggregated predictions with weights assigned based on model performance.
-
-Result: Improved F1 score and accuracy.
+- **Weighted Voting**: Aggregated predictions with weights assigned based on model performance.
 
 ---
 
